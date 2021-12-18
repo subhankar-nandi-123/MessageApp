@@ -1,0 +1,100 @@
+body{
+  margin:1px;
+  padding:0px;
+}
+
+.Nav{
+  width:100%;
+  height:10%;
+  background-color:#802929;
+  display:block;
+  position:static;
+}
+
+.Lpage{
+  width:100%;
+  height:90%;
+  background-color:#7d7d74;
+  position:static;
+}
+
+.SignUp{
+  display:inline-block;
+  width:450px;
+  height:10%;
+  background-color:#1dde3a;
+  text-align:center;
+  font-size:40px;
+  border-radius:10px;
+  margin-top:10%;
+  position:relative;
+  top:10%;
+  left:15%;
+  float:left;
+  padding-top:13px;
+  font-weight:bold;
+  box-shadow:5px 5px 10px #271929;
+}
+
+.SignUp:hover{
+  box-shadow:0px 0px 20px #060807;
+  background-color:#00ff08;
+}
+
+.SignUp:hover a{
+color:#001580;
+}
+
+.Login{
+  display:inline-block;
+  width:450px;
+  height:10%;
+  background-color:#1dde3a;
+  text-align:center;
+  font-size:40px;
+  border-radius:10px;
+  margin-top:10%;
+  position:relative;
+  top:10%;
+  right:15%;                                  
+  float:right;
+  padding-top:13px;
+  font-weight:bold;
+  box-shadow:5px 5px 10px #271929;
+}
+
+.Login:hover{
+  box-shadow:0px 0px 20px #060807;
+  background-color:#00ff08;
+}
+
+.Login:hover a{
+color:#001580;
+}
+
+a{
+  cursor:pointer;
+  color:#0d0f0e;
+}
+
+#Logo{
+  height:95%;
+  width:5%;
+  display:block;
+  float:left;
+  position:relative;
+  background-color:white;
+  margin:1.5px;
+}
+
+#title{
+  font-size:40px;
+  text-align:center;
+  margin-left:25%;
+  display:block;
+  margin-top:8px;
+  width:500px;
+  float:left;
+  color:#9c9c08;
+  font-weight:bold;
+}
