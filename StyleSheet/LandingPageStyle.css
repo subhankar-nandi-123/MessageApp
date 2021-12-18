@@ -18,7 +18,7 @@ body{
   position:static;
 }
 
-.SignUp{
+.SignLogin{
   display:inline-block;
   width:450px;
   height:10%;
@@ -29,48 +29,22 @@ body{
   margin-top:10%;
   position:relative;
   top:10%;
-  left:15%;
   float:left;
   padding-top:13px;
   font-weight:bold;
   box-shadow:5px 5px 10px #271929;
 }
 
-.SignUp:hover{
+.SignLogin:hover{
   box-shadow:0px 0px 20px #060807;
   background-color:#00ff08;
+  cursor:pointer;
 }
 
-.SignUp:hover a{
+.SignLogin:hover a{
 color:#001580;
 }
 
-.Login{
-  display:inline-block;
-  width:450px;
-  height:10%;
-  background-color:#1dde3a;
-  text-align:center;
-  font-size:40px;
-  border-radius:10px;
-  margin-top:10%;
-  position:relative;
-  top:10%;
-  right:15%;                                  
-  float:right;
-  padding-top:13px;
-  font-weight:bold;
-  box-shadow:5px 5px 10px #271929;
-}
-
-.Login:hover{
-  box-shadow:0px 0px 20px #060807;
-  background-color:#00ff08;
-}
-
-.Login:hover a{
-color:#001580;
-}
 
 a{
   cursor:pointer;
